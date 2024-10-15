@@ -11,9 +11,8 @@
 <body>
     <div id="conteudo">
         <header>
-            <a href="<?=$base;?>/"><img id="logo" src="<?=$base;?>/img/logo.png" alt="Logo"></a>
+            <a href="#"><img id="logo" src="<?=$base;?>/img/logo.png" alt="Logo"></a>
             <div>Soletrando Palmira</div>
-            <a href="<?=$base;?>/sair"><img id="sair" src="<?=$base;?>/img/sair.png" alt="Sair">Sair</a>
         </header>
         <main>
             <div id="corpo">

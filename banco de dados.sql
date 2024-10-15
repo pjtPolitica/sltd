@@ -58,7 +58,7 @@ CREATE TABLE pessoacrf(
 CREATE TABLE contagemcrf(
     id int(11) NOT NULL AUTO_INCREMENT,
     data date NOT NULL,
-    jogadas int(11) NOT NULL,
+    jogadas int(11) DEFAULT NULL,
     usadas varchar(500) DEFAULT NULL,
     id_pessoa int(11) NOT NULL,
     PRIMARY KEY (id),
