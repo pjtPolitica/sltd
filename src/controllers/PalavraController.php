@@ -23,7 +23,7 @@ class PalavraController extends Controller {
     // confere
     public function jogo(){
 
-        $qtdJogadas = 100;
+        $qtdJogadas = 50;
         $usadas;
 
         date_default_timezone_set('America/Manaus');
