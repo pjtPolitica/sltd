@@ -20,6 +20,7 @@ class PalavraController extends Controller {
         }
     }
 
+    // confere
     public function jogo(){
 
         $qtdJogadas = 100;
@@ -53,6 +54,7 @@ class PalavraController extends Controller {
         $this->render('jogo', ['palavra'=> $palavra[$indice]]);
     }
 
+    // confere
     public function jogoAction(){
 
         $id = filter_input(INPUT_POST,'id');
@@ -152,6 +154,7 @@ class PalavraController extends Controller {
         }
     }
 
+    // confere
     public function resultado(){
         $this->render('resultado');
     }

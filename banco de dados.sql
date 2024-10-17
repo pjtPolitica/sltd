@@ -90,7 +90,7 @@ CREATE TABLE precadastrocrf(
 CREATE TABLE rankingcrf(
     id int(11) NOT NULL AUTO_INCREMENT,
     resultado varchar(10) NOT NULL,
-    palava_escrita varchar(20) DEFAULT NULL,
+    palavra_escrita varchar(20) DEFAULT NULL,
     data datetime NOT NULL DEFAULT current_timestamp(),
     id_palavra int(11) NOT NULL,
     id_pessoa int(11) NOT NULL,
