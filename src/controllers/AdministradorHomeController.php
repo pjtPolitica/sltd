@@ -78,7 +78,7 @@ class AdministradorHomeController extends Controller {
 
             $perfil = Perfil::select()->where('nome', 'gestor')->one();
             
-            $dadosCount = precadastro::select()->get();
+            $dadosCount = precadastro::select('id')->get();
             $letras = array('b','c','d','f','g','h','j','l','m','n','p','q','r','s','t','v','x','z');
             $auxLetra = array_rand($letras,4);
             $chave = $letras[$auxLetra[0]].$letras[$auxLetra[1]].$letras[$auxLetra[2]].$letras[$auxLetra[3]].count($dadosCount);
